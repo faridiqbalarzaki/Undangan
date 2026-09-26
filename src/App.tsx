@@ -329,7 +329,7 @@ function App() {
       attendance: "Hadir",
     },
   ]);
-  const musicPlayer = useRef<HTMLIFrameElement>(null);
+  const musicPlayer = useRef<HTMLAudioElement>(null);
   const guest =
     new URLSearchParams(window.location.search).get("to") ||
     "Bapak/Ibu/Saudara/i";
