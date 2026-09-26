@@ -5,5 +5,5 @@ mkdirSync("dist");
 ["index.html", "styles.css", "app.js"].forEach((file) => {
   cpSync(file, `dist/${file}`);
 });
-cpSync("public", "dist/public", { recursive: true });
+cpSync("public", "dist", { recursive: true });
 console.log("Static site built in dist/");
