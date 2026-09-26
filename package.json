@@ -1,0 +1,10 @@
+{
+  "name": "wedding-puji-syauqi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node build.js"
+  }
+}

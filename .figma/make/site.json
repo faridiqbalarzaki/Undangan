@@ -1,0 +1,10 @@
+{
+  "description": "Create elegant mobile wedding invitations featuring personalized greetings, event details, countdowns, photo galleries, RSVP forms, and digital gift options.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
